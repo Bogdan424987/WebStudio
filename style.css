@@ -1,0 +1,169 @@
+.header__link{
+    color: var(--acent);
+    cursor: pointer;
+    line-height: 1.33;
+    text-transform: uppercase;
+    color:var(--grey) ;
+}
+
+:root{
+    --white: #fff;
+    --text-color:#626262;
+    --grey:#7D7D7D;
+    --light-grey:#B4AD9E;
+    --acent:#03A9F4;
+   
+}
+
+h1 {
+    width: 145px;
+    height: 31px;
+    top: 24px;
+    left: 215px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.52px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #000000;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-family: 'Bilbo Swash Caps';
+    font-size: 20px;
+    line-height: 1.1;
+    color: var(--axent-color);
+}
+
+.menu{
+    display: flex;
+    text-transform: uppercase;
+  
+}
+
+.menu-link{
+    line-height: 2.92;
+    color: var(--axent-color);
+}
+
+.menu-item{
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+.menu-item:last-child{
+    margin-right: 0;
+}
+
+.text {
+    width: 129px;
+    height: 19px;
+    top: 1922px;
+    left: 286px;
+    gap: 0px;
+    opacity: 0px;
+    width: 130px;
+    height: 19px;
+    top: 1951px;
+    left: 285px;
+    gap: 0px;
+    opacity: 0px;
+    margin-bottom: 90px;
+}
+
+.team-card-2 {
+    width: 270px;
+    height: 368px;
+    top: 1632px;
+    left: 515px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.section-title-black{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-indent: 300px;
+    margin-bottom: 80px;
+}
+.contact-btn{
+    display: block;
+    padding: 18px 33px 28px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    line-height: 1.21;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white);
+    background-color: var(--axent-color);
+}
+
+.list-item {
+    max-width: 420px;
+    margin-bottom: 130px;
+    list-style-type: none;
+}
+
+.list-item-1 {
+    width: 270px;
+height: 368px;
+top: 1632px;
+left: 515px;
+gap: 0px;
+border-radius: 0px 0px 4px 4px;
+opacity: 0px;
+list-style-type: none;
+}
+
+.services{
+    width: 270px;
+    float: left;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 80px;
+}
+
+.a {
+    display: grid;
+    align-items: end;
+    background: #2F303A;
+    left: 215px;
+    width: 1600px;
+    height: 52px;
+}
+
+.list-item {
+    max-width: 420px;
+    margin-bottom: 130px;
+}
+
+.h4 {
+    display: grid;
+    align-items:  end;
+    background: #2F303A;
+    left: 215px;
+    width: 1600px;
+    height: 52px;
+    top: 2094px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.works-clearfix {
+    margin-bottom: 80px;
+}
