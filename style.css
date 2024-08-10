@@ -79,6 +79,53 @@ h1 {
     opacity: 0px;
     margin-bottom: 90px;
 }
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    border: 1px solid  #03A9F4;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+@media (min-width: 575.98) {
+    .container {
+        max-width: 540px;
+        margin: auto;
+        padding: 0;
+    }
+} 
+
+@media (min-width: 767.98px){
+    .container {
+        max-width: 720px;
+    }
+}
+       
+@media (min-width: 991.98px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1199.98px){
+    .container {
+        max-width: 1140px;
+    }
+}
+
+.li {
+    width: 1600px;
+    height: 600px;
+    top: 80px;
+    gap: 0px;
+    opacity: 0px;
+    background: #2F303A;
+}
+
 
 .team-card-2 {
     width: 270px;
