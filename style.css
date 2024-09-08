@@ -128,7 +128,7 @@ a{
     float: left;
     word-wrap: break-word;
 }
-.text {
+.details-text {
     /*width: 129px;
     height: 19px;
     top: 1922px;
@@ -149,7 +149,24 @@ a{
     margin-top: 50px;
     margin-left: 60px;
     font-family: 'Roboto', sans-serif;
- 
+    font-stretch: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    line-height: 16.41px;
+    font-size: 14px;
+}
+
+.details-header {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 60px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 16.41px;
+    font-size: 14px;
 }
 
 .container {
@@ -316,15 +333,80 @@ a{
     margin-bottom: 60px;
 }
 
-.list {
+.details-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 30px;
+    align-items: center;
+    gap: 30px;
 }
 
-.list-item {
-    list-style-type: none; 
+.details-item::before {
+    list-style-type: none;
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: #fcfeff;
+    border-radius: 4px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/img/Group.png);
+}
+
+.details-item::before {
+    list-style-type: none;
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: #fcfeff;
+    border-radius: 4px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/img/clock\ 1\ \(1\).png);
+}
+
+.details-item::before {
+    list-style-type: none;
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: #fcfeff;
+    border-radius: 4px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/img/diagram\ 1.png);
+}
+
+.details-item::before {
+    list-style-type: none;
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: #fcfeff;
+    border-radius: 4px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/img/Group\ \(1\).png);
+}
+
+.details-item:nth-child(1):before{
+    background-image: url(/img/Group.png);
+}
+
+.details-item:nth-child(2):before{
+    background-image: url(/img/clock\ 1\ \(1\).png);
+}
+
+.details-item:nth-child(3):before{
+    background-image: url(/img/diagram\ 1.png);
+}
+
+.details-item:nth-child(4):before{
+    background-image: url(/img/Group\ \(1\).png);
 }
 
 .list-item-1 {
