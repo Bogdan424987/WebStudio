@@ -129,25 +129,8 @@ a{
     word-wrap: break-word;
 }
 .details-text {
-    /*width: 129px;
-    height: 19px;
-    top: 1922px;
-    left: 286px;
-    gap: 0px;
-    opacity: 0px;
-    width: 130px;
-    height: 19px;
-    top: 1951px;
-    left: 285px;
-    gap: 0px;
-    opacity: 0px;
-    margin-bottom: 90px;
-    white-space: nowrap;
-    display: grid;*/
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    margin-top: 50px;
-    margin-left: 60px;
     font-family: 'Roboto', sans-serif;
     font-stretch: 50px;
     font-size: 14px;
@@ -157,16 +140,17 @@ a{
     text-align: left;
     line-height: 16.41px;
     font-size: 14px;
+    width: 270px;
+    height: 48px;
 }
 
 .details-header {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    margin-top: 50px;
-    margin-left: 60px;
     font-family: 'Roboto', sans-serif;
     line-height: 16.41px;
     font-size: 14px;
+    margin: 30px;
 }
 
 .container {
@@ -334,81 +318,16 @@ a{
 }
 
 .details-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        margin-left: 50px;
 }
-
-.details-item::before {
-    list-style-type: none;
-    content: "";
-    display: block;
-    width: 270px;
-    height: 120px;
-    background-color: #fcfeff;
-    border-radius: 4px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(/img/Group.png);
+.service-svg{
+    margin-left: 40px;
 }
-
-.details-item::before {
-    list-style-type: none;
-    content: "";
-    display: block;
-    width: 270px;
-    height: 120px;
-    background-color: #fcfeff;
-    border-radius: 4px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(/img/clock\ 1\ \(1\).png);
-}
-
-.details-item::before {
-    list-style-type: none;
-    content: "";
-    display: block;
-    width: 270px;
-    height: 120px;
-    background-color: #fcfeff;
-    border-radius: 4px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(/img/diagram\ 1.png);
-}
-
-.details-item::before {
-    list-style-type: none;
-    content: "";
-    display: block;
-    width: 270px;
-    height: 120px;
-    background-color: #fcfeff;
-    border-radius: 4px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(/img/Group\ \(1\).png);
-}
-
-.details-item:nth-child(1):before{
-    background-image: url(/img/Group.png);
-}
-
-.details-item:nth-child(2):before{
-    background-image: url(/img/clock\ 1\ \(1\).png);
-}
-
-.details-item:nth-child(3):before{
-    background-image: url(/img/diagram\ 1.png);
-}
-
-.details-item:nth-child(4):before{
-    background-image: url(/img/Group\ \(1\).png);
-}
-
 .list-item-1 {
     width: 270px;
 height: 368px;
@@ -419,7 +338,6 @@ border-radius: 0px 0px 4px 4px;
 opacity: 0px;
 list-style-type: none;
 }
-
 .services{
     width: 270px;
     float: left;
