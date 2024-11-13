@@ -5,11 +5,12 @@
 			"path": "."
 		},
 		{
-			"name": "Photo-plog",
-			"path": "../Photo-plog"
+			"name": "icomoon (2)",
+			"path": "../icomoon (2)"
 		}
 	],
 	"settings": {
+		"liveServer.settings.port": 5502,
 		"liveServer.settings.multiRootWorkspaceName": "WebStudio"
 	}
 }
