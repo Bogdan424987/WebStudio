@@ -352,7 +352,7 @@
   }
   
   @media screen and (min-width: 768px) {
-    .advantage-list {
+    .advantage-list { 
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
@@ -881,7 +881,7 @@
     content: "";
     width: 24px;
     height: 24px;
-    background-image: url(../images/icon_send.svg);
+    background-image: url(../images/icon_send\ \(1\).svg);
     margin-left: 10px;
   }
   @media screen and (min-width: 1200px) {
@@ -1074,7 +1074,7 @@
   .input-accept:checked + .label-accept::before {
     background-color: var(--color-accent);
     border: none;
-    background-image: url(../images/Vector.svg);
+    background-image: url(../images/Vector\ \(6\).svg);
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -1417,4 +1417,4 @@
   }
   .portfolio-item:hover .portfolio-text-cover, .portfolio-item:focus .portfolio-text-cover {
     transform: translateY(0);
-  }/*# sourceMappingURL=main.css.map */
+  }
